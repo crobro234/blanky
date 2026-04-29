@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://127.0.0.1:8001";
+const API = "https://blanky.onrender.com";
 
 function App() {
   const [file, setFile] = useState(null);
